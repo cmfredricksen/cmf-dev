@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400&family=M+PLUS+Rounded+1c&family=Montserrat&display=swap');
+
+:root {
+	--color-black: #330033;
+	--color-dark: #4d004d;
+	--color-medium: #cc00cc;
+	--color-light: #ff33ff;
+	--color-white: #ffccff;
+	--color-accent: #66ff66;
+
+	--font-heading: 'Inconsolata', monospace;
+	--font-text: 'Montserrat', sans-serif;
+	--font-accent: 'M PLUS Rounded 1c', monospace;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--color-black);
+	color: var(--color-white);
+}
+
+h1,
+h2,
+h3 {
+	color: var(--color-light);
+	font-family: var(--font-heading);
+	font-weight: 300;
+}
+
+a,
+li {
+	color: var(--color-accent);
+	font-family: var(--font-accent);
+}
+
+a:hover {
+	color: var(--color-light);
+}
+
+p {
+	font-family: var(--font-text);
+}
